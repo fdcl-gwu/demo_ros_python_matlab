@@ -1,0 +1,8 @@
+# Request : matrix and vector of size (A, B) and (B, 1)
+uint64 A
+uint64 B
+float64[] R
+float64[] X
+---
+# Response : their multiplication of size (A, 1)
+float64[] Y

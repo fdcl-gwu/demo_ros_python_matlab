@@ -1,0 +1,30 @@
+.vscode/
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# OSX / *nix default autosave extension
+*.m~
+*.asv
+*/matlab_msg_gen_ros1/*
+
+# Compiled MEX binaries (all platforms)
+*.mex*
+
+# Matlab code generation folders
+codegen/
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+### ROS ###
+.catkin_tools/
+.catkin_workspace
+devel/
+build/
+logs/
+bin/
+
